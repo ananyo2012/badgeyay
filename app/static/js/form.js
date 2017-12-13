@@ -27,10 +27,17 @@ $(document).ready(
         });
         $("#text").click(function () {
             $("#cutext-input").css("display", "block");
+            $("#text-color-input").css("display", "none");
+            $("#config-input").css("display", "none");
+        });
+        $("#textcolor").click(function () {
+            $("#cutext-input").css("display", "none");
+            $("#text-color-input").css("display", "block");
             $("#config-input").css("display", "none");
         });
         $("#json").click(function () {
             $("#cutext-input").css("display", "none");
+            $("#text-color-input").css("display", "none");
             $("#config-input").css("display", "block");
         });
 
